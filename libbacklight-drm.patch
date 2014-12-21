@@ -1,0 +1,11 @@
+--- libbacklight-0.01/libbacklight.c.orig	2011-01-19 05:01:08.000000000 +0100
++++ libbacklight-0.01/libbacklight.c	2014-12-21 16:04:10.105558058 +0100
+@@ -35,7 +35,7 @@
+ #include <linux/types.h>
+ #include <dirent.h>
+ #include <sys/stat.h>
+-#include <drm/drm_mode.h>
++#include <libdrm/drm_mode.h>
+ #include <fcntl.h>
+ #include <malloc.h>
+ #include <string.h>
